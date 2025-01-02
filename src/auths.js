@@ -5,6 +5,7 @@ const jwt = require("jsonwebtoken");
 const cors = require("cors");
 
 const app = express();
+require("./prod")(app);
 app.use(express.json());
 app.use(cors());
 
