@@ -12,7 +12,7 @@ app.use(cors());
 const SECRET_KEY = "your-secret-key"; // Replace with a secure key
 
 mongoose.connect(
-  "mongodb+srv://jumiklein5255:1jBQQH1maIZnb4fw@cluster0.wkyf2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "mongodb+srv://jumiklein525:PVm7buM6w8tzhAxl@cluster1.jasf9.mongodb.net/TaskMGS",
   { tls: true, tlsAllowInvalidCertificates: false }
 );
 
